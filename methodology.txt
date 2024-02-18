@@ -1,0 +1,13 @@
+Overall structure:
+1. Create 3x3 images by calculating difference between frame n and n+k, where k > 0
+2. Interpolate images (240x240?) and create contour map
+3. Train yolo 
+4. Evaluate
+
+Creating difference images:
+- Vary k, evaluate effects
+- try log differences
+
+Interpolation:
+- What is a good resolution to interpolate to?
+
